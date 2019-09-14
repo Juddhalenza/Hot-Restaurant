@@ -105,7 +105,7 @@ app.get('/api/waitlist', function (req, res) {
 // Create Reservation / Waitlist
 // *******************
 
-app.post('/api/waitlist', function (req, res) {
+app.post('/api/reserve', function (req, res) {
 
     // Available Tables
     var totalTables = 7;
